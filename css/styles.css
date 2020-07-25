@@ -181,6 +181,13 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+  background-color: var(--accent-color);
 }
 
 .hero .modal-btn {
@@ -197,16 +204,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
-}
-
-.modal-btn {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--main-title-color);
-  background-color: var(--accent-color);
 }
 
 /* Особенности*/
@@ -371,7 +368,7 @@ body {
 .social-links-icons {
   width: 20px;
   height: 20px;
-  fill: var(--secondary-font-color);
+  fill:var(--companies-logo);
 }
 
 .social-links-item-link:hover .social-links-icons,
@@ -455,6 +452,8 @@ body {
 }
 
 .call-container .modal-btn {
+  display: flex;
+  align-items: center;
   color: var(--main-title-color);
   margin-left: auto;
 }
@@ -482,11 +481,6 @@ body {
 
 .social-links-container .social-links-icons {
   fill: var(--main-title-color);
-}
-
-.call-container .modal-btn {
-display: flex;
-align-items: center;
 }
 
 .send-icon {
